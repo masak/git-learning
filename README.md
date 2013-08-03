@@ -16,3 +16,7 @@ A quick map:
 
     first/                  A study of e83c51, the first Git commit
     releases/               When, what, and why
+
+By the way,
+https://www.kernel.org/pub/software/scm/git/docs/user-manual.html#birdview-on-the-source-code
+is a pretty good introduction, and captures the kind of level I want to learn at.
