@@ -16,3 +16,15 @@ Answer:
     <fdel> masak: or set core.commentchar to another character
     <fdel> masak: available since 1.8.2, so maybe core.commentchar isn't available for you, depending on your git version
     <masak> fdel: awesome. thanks.
+
+## Empty commits
+
+**Q: How easy is it to create a commit pointing to the same tree as the last
+one?**
+
+Answer: `git commit --allow-empty`
+
+    $ $ git cat-file -p HEAD | grep tree
+    tree f71805b24157b4c2a7efa425544831845e62813c
+    $ git cat-file -p HEAD^ | grep tree
+    tree f71805b24157b4c2a7efa425544831845e62813c
