@@ -1,0 +1,11 @@
+## Orphaned branches
+
+**Q: When checking out an orphaned branch, how does the branch "remember" to
+make the next commit with no parents?**
+
+    <masak> ooh, `git checkout --orphan`
+    <masak> "The first commit made on this new branch will have no parents and it will be the root of a new history totally 
+            disconnected from all the other branches and commits."
+    <masak> waitwait... so, where is that information stored between the checkout and the subsequent commit?
+    * masak adds that to his growing list of questions in git-learning
+
