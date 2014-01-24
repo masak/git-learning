@@ -9,3 +9,5 @@ make the next commit with no parents?**
     <masak> waitwait... so, where is that information stored between the checkout and the subsequent commit?
     * masak adds that to his growing list of questions in git-learning
 
+**Guess:** I found something in `builtin/merge.c` called "empty head". I
+strongly suspect that has something to do with it.
