@@ -11,3 +11,11 @@ make the next commit with no parents?**
 
 **Guess:** I found something in `builtin/merge.c` called "empty head". I
 strongly suspect that has something to do with it.
+
+## Sparse checkout
+
+**Q: What is a sparse checkout?**
+
+**Hint:** Sparse checkout can be used to restrict which files/folders are
+updated with all checkout and status operations. It cannot change the tree the
+checkout is rooted from. See man git-read-tree.
