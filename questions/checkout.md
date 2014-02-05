@@ -19,3 +19,5 @@ strongly suspect that has something to do with it.
 **Hint:** Sparse checkout can be used to restrict which files/folders are
 updated with all checkout and status operations. It cannot change the tree the
 checkout is rooted from. See man git-read-tree.
+
+**More hint:** See [this answer](http://stackoverflow.com/a/13738951).
