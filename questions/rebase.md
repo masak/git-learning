@@ -9,3 +9,6 @@ Use the `theirs` merge strategy option.
 
 (Why `theirs`, not `ours`? Because the roles of working branch and upstream
 branch are reversed in the rebase case compared to the merge case.)
+
+**Q: Manual says commits are stored away in a "temporary area". Which temporary
+area is that?**
